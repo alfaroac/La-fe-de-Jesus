@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/index.css" rel="stylesheet"> -->
+    <link href="spec/lib/jasmine-1.2.0/jasmine.css" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/index.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+
+<!-- Start of first page -->
+<div data-role="page" id="foo">
+	<header data-role="header" data-position="fixed">
+        <h1> <strong>La fe de Jesús</strong></h1>
+        <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+        <a href="#add-form" data-icon="gear" data-iconpos="notext" >Add</a>
+	</header><!-- /header -->
+	<div role="main" class="ui-content">
+        <div class="back">
+        </div>
+
+ <div data-role="panel" data-position="left" data-position-fixed="true"
+     data-display="overlay" data-theme="a" id="nav-panel">
+		<a href="#" data-rel="close" class="ui-btn ui-corner-all ui-shadow
+            ui-icon-delete ui-btn-icon-notext"></a>
+
+			<ol data-role="listview" data-inset="true" >
+				<li><a href="#leccion1">Dios</a></li>
+				<li><a href="#leccion2">La Biblia</a></li>
+				<li><a href="#navbar">La Oración</a></li>
+				<li><a href="#">La segunda venida</a></li>
+				<li><a href="#">Señales de la segunda venida</a></li>
+				<li><a href="#">Origen del pecado</a></li>
+				<li><a href="#">La salvación</a></li>
+				<li><a href="#">El perdon de los pecados</a></li>
+				<li><a href="#">El juicio</a></li>
+				<li><a href="#">La ley de Dios</a></li>
+				<li><a href="#">El dia de reposo</a></li>
+				<li><a href="#">Como guardar el sabado</a></li>
+				<li><a href="#">La muerte</a></li>
+				<li><a href="#">La iglesia</a></li>
+				<li><a href="#">Don de profeciá</a></li>
+				<li><a href="#">Normas Cristianas</a></li>
+				<li><a href="">El Bautismo</a></li>
+				<li><a href="">La predicación</a></li>
+				<li><a href="">La vida Cristiana</a></li>
+				<li><a href="">Dios llama</a></li>
+			</ol>
+        <br>
+    </div><!-- /panel -->
+
+ <div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a" id="add-form">
+		<a href="#" data-rel="close" class="ui-btn ui-corner-all ui-shadow
+            ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+        <br>
+        <br>
+<ul data-role="listview">
+                <li><a href="#panel-fixed-page2">Accordion</a></li>
+                <li><a href="#panel-fixed-page2">Ajax Navigation</a></li>
+                <li><a href="#panel-fixed-page2">Autocomplete</a></li>
+        </ul>
+    </div><!-- /panel -->
+	</div><!-- /content -->
+
+	<footer data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</footer><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="leccion1">
+	<header data-role="header" data-position="fixed">
+		<h2>DIOS<small>, y la Biblia </small></h2>
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>
+	</header><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<ol>
+            <li><strong>¿Cuántos dioses existen?</strong> 
+                <a href="#" class="lec1-vers-m"><span >(Efesios 4:6)</span></a> </li>
+			<div class="lec1-vers">				
+                <a href="#">(Efesios 4:6)</a>
+			<p> "Un Dios y Padre de todos, el cual es sobre todos, y por todos, y en todos".</p>
+			</div>
+			<p><input type="text" class="lec1-inputs"></p>
+            <p class="lec1-rpts info">
+			<strong>Respuesta: </strong>Un solo Dios.</p>
+
+			<li><strong>¿Cuál es la naturaleza de Dios?</strong> <a href="#">(S. Juan 4:24)</a> </li>
+			<p class="lec1-vers"> "Dios es Espíritu; y los que le adoran, en
+                espíritu y en verdad es necesario que adoren". </p>
+			<p><input type="text" class="lec1-inputs"></p>
+			<p class="lec1-rpts info"><strong>Respuesta:</strong> Dios es espíritu</p>
+
+            <li><strong>¿Cueles son las tres personas de la trinidad?</strong> 
+                <a href="#" >(Mateo 28:19)</a></li>
+			<p class="lec1-vers"> "Por tanto, id, y haced discípulos a todas las
+                naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo" </p>
+			<p><input type="text" class="lec1-inputs"></p>
+			<p class="lec1-rpts info"><strong>Respuesta:</strong> Padre, hijo, y
+                el espíritu santo.</p>
+
+            <li><strong>¿Cómo se consideraba Dios hacia el hombre?</strong>
+                <a href="#" >(1 juan 3:1,2)</a></li>
+            <div class="lec1-vers">
+			<p>1 Mirad cuál amor nos ha dado el Padre, para que seamos llamados hijos de Dios; por esto el mundo no nos conoce, porque no le conoció a él. </p>
+            <p>2 Amados, ahora somos hijos de Dios, y aún no se ha manifestado lo que hemos de ser; pero sabemos que cuando él se manifieste, seremos semejantes a él, porque le veremos tal como él es.</p>
+            </div>
+			<p><input type="text" class="lec1-inputs"></p>
+			<p class="lec1-rpts info"><strong>Respuesta:</strong> Como un padre.</p>
+
+            <li><strong>¿Se preocupa Dios por nuestros problemas?</strong>
+                <a href="#">(salmo 40:1-3)</a></li>
+            <div class="lec1-vers">
+			<p>"Pacientemente esperé a Jehová, y se inclinó a mí, y oyó mi clamor."</p>
+			<p>"Y me hizo sacar del pozo de la desesperación, del lodo cenagoso; Puso mis pies sobre peña, y enderezó mis pasos."</p>
+			<p>"Puso luego en mi boca cántico nuevo, alabanza a nuestro Dios. Verán esto muchos, y temerán, Y confiarán en Jehová."</p>
+            </div>
+			<p><input type="text" class="lec1-inputs"></p>
+			<p class="lec1-rpts info"><strong>Respuesta:</strong> Si se preocupa.</p>
+
+            <li><strong>¿Cómo es el carácter de Dios?</strong>
+                <a href="#">(1 juan 4:8)</a></li>
+			<p class="lec1-vers"> "El que no ama, no ha conocido a Dios; porque
+                Dios es amor".</p>
+			<p><input type="text" class="lec1-inputs"></p>
+			<p class="lec1-rpts info"><strong>Respuesta:</strong> Es amor.</p>
+		</ol>
+
+        <h4 align="center">
+            ¿QUÉ DEBO HACER?
+            <p align="center">
+		<a id="lec1-comp-m"  class="ui-btn ui-corner-all ui-shadow ui-icon-mail ui-btn-icon-right ui-btn-icon-notext"></a>
+            </p>
+        </h4>
+        <div id="lec1-comp">
+		<form>
+		<fieldset data-role="controlgroup" data-mini="true">	
+			<div align="right"><a class="btny"  href="#popup1" data-transition="flip" data-rel="popup">(Exodo 20:7)</a></div>					
+			<div data-role="popup" id="popup1" class="ui-content" style="max-width:280px">
+			    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+			<p>"No tomaras el nombre del Señor tu Dios en vano. Porque el Señor no dara por inocente al que tome su nombre en vano".</p>
+			</div>
+		    <input type="checkbox" name="checkbox-v-6a" id="checkbox-v-6a">
+		    <label for="checkbox-v-6a">Respetar el nombre de Dios </label>			
+
+			<div align="right"><a class="btny"  href="#popup2" data-transition="flip" data-rel="popup">(Hechos 5:29)</a></div>	
+			<div data-role="popup" id="popup2" class="ui-content" style="max-width:280px">
+			    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+			<p>Pedro y los apostoles respondieron: "Es preciso obedecer a Dios antes que a los hombres".</p>
+			</div>
+		    <input type="checkbox" name="checkbox-v-6b" id="checkbox-v-6b">
+		    <label for="checkbox-v-6b">Obedecer a Dios </label>
+
+			<div align="right"><a class="btny" href="#popup3" data-transition="flip" data-rel="popup">(S. Juan 6:33)</a></div>	
+			<div data-role="popup" id="popup3" class="ui-content" style="max-width:280px">
+			    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+			<p>"Porque el pan de Dios es aquel que deciende del cielo y da vida al mundo".</p>
+			</div>
+		    <input type="checkbox" name="checkbox-v-6c" id="checkbox-v-6c">
+		    <label for="checkbox-v-6c">Poner a Dios en primer lugar</label>
+
+
+			<div align="right"><a class="btny" href="#popup4"
+                    data-transition="flip" data-rel="popup">(S. Mateo 22:37)</a></div>	
+			<div data-role="popup" id="popup4" class="ui-content" style="max-width:280px">
+			    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+			<p>Jesús respondio: "Amaras al Señor tu Dios con todo tu corazón, con toda tu alma y con toda tu mente".</p>
+			</div>
+ 		    <input type="checkbox" name="checkbox-v-6d" id="checkbox-v-6d">
+		    <label for="checkbox-v-6d">Amar a Dios de todo corazón</label>
+ 
+   	</fieldset>
+		</form>		
+            <p align="center">
+		<a id="lec1-rpts-m"  class="ui-btn ui-corner-all ui-shadow ui-icon-eye ui-btn-icon-right ui-btn-icon-notext"></a>
+            </p>
+		<!-- <a href="#" id="lec1-rpts-m"   class="ui-btn ui-corner-all ui-shadow ui-icon-eye ui-btn-icon-right" >Revelar Respuetas</a> -->
+        </div>
+    </div><!-- /content -->
+
+	<footer data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</footer><!-- /footer -->
+</div><!-- /page -->
+<!-- /page -->
+
+<div data-role="page" id="leccion2">
+	<header data-role="header" data-position="fixed">
+		<h2>La Santa Biblia </h2>
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>
+	</header><!-- /header -->
+
+	<div role="main" class="ui-content">
+       
+		<ol>
+        <h4 align="center">Revelada por <strong>Dios </strong></h4>
+            <li><strong>¿Quién rebelo la santa escritura?</strong> 
+                <a href="#" class="lec2-vers-m"><span > (2 Timoteo 3:16)</span></a> </li>
+			<div class="lec2-vers">				
+                <a href="#"> (2 Timoteo 3:16)</a>
+			<p> "Toda la Escritura es inspirada por Dios, y útil para enseñar,
+                para redargüir, para corregir, para instruir en justicia".</p>
+			</div>
+			<p><input type="text" class="lec2-inputs"></p>
+            <p class="lec2-rpts info">
+			<strong>Respuesta: </strong>Fue inspirado por Dios.</p>
+
+			<li><strong>¿Quienes recibieron la revelación?</strong> <a href="#">(Hebreos 1:1)</a> </li>
+			<p class="lec2-vers"> "Dios, habiendo hablado muchas veces y de
+                muchas maneras en otro tiempo a los padres por los profetas". </p>
+			<p><input type="text" class="lec2-inputs"></p>
+			<p class="lec2-rpts info"><strong>Respuesta: </strong>Los profetas</p>
+
+            <h4 align="center">Fuente de orientación y soluciones</h4>
+            <li><strong>¿A qué se comprara la santa biblia?</strong> 
+                <a href="#" >(Salmo 119:105)</a></li>
+			<p class="lec2-vers">"Lámpara es a mis pies tu palabra, y lumbrera a
+                mi camino". </p>
+			<p><input type="text" class="lec2-inputs"></p>
+			<p class="lec2-rpts info"><strong>Respuesta:</strong> A una lámpara.</p>
+
+            <li><strong> ¿Qué beneficio reporta leer la santa biblia?</strong>
+                <a href="#" >(2 Timoteo3:15-17)</a></li>
+            <div class="lec2-vers">
+			<p>15 "Y que desde la niñez has sabido las Sagradas Escrituras, las
+                cuales te pueden hacer sabio para la salvación por la fe que es
+                en Cristo Jesús". </p>
+            <p>16 Toda la Escritura es inspirada por Dios, y útil para enseñar, para 
+                redargüir, para corregir, para instruir en justicia,</p>
+            <p>17 a fin de que el hombre de Dios sea perfecto, enteramente
+                preparado para toda buena obra.</p>
+            </div>
+			<p><input type="text" class="lec2-inputs"></p>
+			<p class="lec2-rpts info"><strong>Respuesta:</strong> Sabiduria.</p>
+
+            <li><strong>¿Que beneficios da, la santa biblia?</strong>
+                <a href="#">(Romanos 15:4)</a></li>
+            <div class="lec2-vers">
+			<p>"Porque las cosas que se escribieron antes, para nuestra
+                enseñanza se escribieron, a fin de que por la paciencia y la
+                consolación de las Escrituras, tengamos esperanza."</p>
+            </div>
+			<p><input type="text" class="lec2-inputs"></p>
+			<p class="lec2-rpts info"><strong>Respuesta:</strong> Esperanza.</p>
+
+            <li><strong>¿Cuánto tiempo perdurara la santa biblia?</strong>
+                <a href="#">(Isaías 40:8)</a></li>
+			<p class="lec2-vers">"Secase la hierba, marchitase la flor; más la
+                palabra del Dios nuestro permanece para siempre".</p>
+			<p><input type="text" class="lec2-inputs"></p>
+			<p class="lec2-rpts info"><strong>Respuesta:</strong> Para siempre.</p>
+		</ol>
+
+        <h4 align="center">
+            ¿QUÉ DEBO HACER?
+            <p align="center">
+		<a id="lec2-comp-m"  class="ui-btn ui-corner-all ui-shadow ui-icon-mail ui-btn-icon-right ui-btn-icon-notext"></a>
+            </p>
+        </h4>
+        <div id="lec2-comp">
+		<form>
+		<fieldset data-role="controlgroup" data-mini="true">	
+			<div align="right"><a class="btny"  href="#deu1719"
+            data-transition="flip" data-rel="popup">(Deuteronomio 17:19)</a></div>		
+			<div data-role="popup" id="deu1719" class="ui-content"
+                style="max-width:280px">
+			    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+			<p>y lo tendrá consigo, y leerá en él todos los días de su vida,
+                para que aprenda a temer a Jehová su Dios, para guardar todas las 
+                palabras de esta ley y estos estatutos, para ponerlos por obra;</p>
+			</div>
+		    <input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a">
+		    <label for="checkbox-v-2a">Aceptarla con gozo y alegría</label>			
+
+			<div align="right"><a class="btny"  href="#jn539"
+                    data-transition="flip" data-rel="popup">( s. juan 5:39)</a></div>	
+			<div data-role="popup" id="jn539" class="ui-content" style="max-width:280px">
+			    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+			<p> Escudriñad las Escrituras; porque a vosotros os parece que en
+                ellas tenéis la vida eterna; y ellas son las que dan testimonio de mí;</p>
+			</div>
+		    <input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b">
+		    <label for="checkbox-v-2b"> Escudriñar asiduamente la Biblia</label>
+
+			<div align="right"><a class="btny" href="#jer1516"
+                    data-transition="flip" data-rel="popup">(jeremías 15:16)</a></div>	
+			<div data-role="popup" id="jer1516" class="ui-content" style="max-width:280px">
+			    <a href="#" data-rel="back" class="ui-btn ui-corner-all
+                ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+            <p>"Fueron halladas tus palabras, y yo las comí; y tu palabra me fue por gozo y 
+                por alegría de mi corazón; porque tu nombre se invocó sobre mí, oh 
+                Jehová Dios de los ejércitos".</p>
+			</div>
+		    <input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c">
+		    <label for="checkbox-v-2c">Practicar las enseñanzas de la Biblia</label>
+
+
+			<div align="right"><a class="btny" href="#apo113"
+                    data-transition="flip" data-rel="popup">(apocalipsis 1:13)</a></div>	
+			<div data-role="popup" id="apo113" class="ui-content" style="max-width:280px">
+			    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+			<p>"y en medio de los siete candeleros, a uno semejante al Hijo
+                del Hombre, vestido de una ropa que llegaba hasta los pies, y
+                ceñido por el pecho con un cinto de oro".</p>
+			</div>
+ 		    <input type="checkbox" name="checkbox-v-2d" id="checkbox-v-2d">
+		    <label for="checkbox-v-2d">Tener una Biblia y leerla</label>
+ 
+   	</fieldset>
+		</form>		
+            <p align="center">
+		<a id="lec2-rpts-m"  class="ui-btn ui-corner-all ui-shadow ui-icon-eye ui-btn-icon-right ui-btn-icon-notext"></a>
+            </p>
+        </div>
+    </div><!-- /content -->
+
+	<footer data-role="footer" data-position="fixed">
+		<h4>Page Footer</h4>
+	</footer><!-- /footer -->
+</div><!-- /page -->
+<!-- /page -->
+<!-- /page -->
+
+
+<!-- Start of third page -->
+<div data-role="page" id="navbar">
+
+	<div data-role="header">
+		<h1>La fe de Jesús</h1>
+		<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left ui-btn-icon-notext">Back</a>
+		<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-icon-left ui-icon-gear ui-btn-icon-notext">Settings</a>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>

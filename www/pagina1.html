@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JQueryMobile v1</title>
+	<link rel="stylesheet" href="jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.css">
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+</head>
+<body>
+	<div data-role="page" data-theme="e" id="main">
+		<div data-role="header">
+			<h1>JQueryMobile V1</h1>
+			<a href="#" data-theme="c">Save</a>
+			<a href="#">Out</a>
+		</div>
+		<div data-role="content ">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea unde cupiditate soluta, quibusdam similique, quisquam, corporis necessitatibus facilis iste cum. Laborum voluptate, est odit quasi recusandae aperiam porro, quibusdam!</p>
+			<a href="#pagina2" data-role="button" data-theme="b" data-transition="slide">Ir pag.2 local</a>
+			<a href="#pagina2" data-role="button" data-theme="b" data-transition="slideup">Ir pag.2 local</a>
+			<a href="#pagina2" data-role="button" data-theme="b" data-transition="pop">Pop</a>
+			<a href="pagina2.html" data-role="button" data-theme="e" rel="external" data-transition="slide">Ir pag.2 Externo</a>
+			<a href="#confirmacion" data-role="button" data-rel="dialog">Eliminar</a>
+		</div>
+		<div data-role="footer">
+			<h4>www.jquerymobile.com</h4>			
+		</div>
+	</div>
+
+
+	<div data-role="page" data-theme="e" id="pagina2">
+		<div data-role="header">
+			<h1>JQueryMobile Pagina2</h1>
+		</div>
+		<div data-role="content ">
+			<p>Lorem2 ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea unde cupiditate soluta, quibusdam similique, quisquam, corporis necessitatibus facilis iste cum. Laborum voluptate, est odit quasi recusandae aperiam porro, quibusdam!</p>
+			
+		</div>
+		<div data-role="footer">
+			<h4>www.jquerymobile.com</h4>
+		</div>
+	</div>
+
+	<div data-role="page" id="confirmacion">
+		<div data-role="header">
+			<h2>Eliminar</h2>
+		</div>
+		<div data-role="content">
+			<a href="#main" data-role="button">Seguro que desea eliminar?</a>
+			<a href="#main" data-role="button">Cancelar</a>
+		</div>
+		
+	</div>
+</body>
+</html>

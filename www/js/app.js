@@ -1,0 +1,50 @@
+$(document).ready(function(){
+	$(".lec1-vers").hide();
+	$(".lec1-inputs").hide();
+	$(".lec1-rpts").hide();
+	$("#lec1-comp").hide();
+    $("#lec1-comp-m").hide();
+    $(".lec1-vers-m").click(function(){
+    	$(this).hide();
+        $(".lec1-vers").show();
+        $(".lec1-inputs").show();
+        $("#lec1-comp-m").show();
+        // $(".lec1-vers").toggle();
+        // $(".lec1-inputs").toggle();
+        // $("#lec1-comp-m").toggle();
+    });
+    $("#lec1-rpts-m").click(function(){
+    	$(this).hide();
+        $(".lec1-vers").show();
+        $(".lec1-vers-m").hide()
+    	$(".lec1-inputs").hide();
+        $(".lec1-rpts").show();
+    });
+    $("#lec1-comp-m").click(function(){
+    	$(this).hide();
+        $("#lec1-comp").show();
+    });
+
+	$(".lec2-vers").hide();
+	$(".lec2-inputs").hide();
+	$(".lec2-rpts").hide();
+	$("#lec2-comp").hide();
+    $("#lec2-comp-m").hide();
+    $(".lec2-vers-m").click(function(){
+    	$(this).hide();
+        $(".lec2-vers").show();
+        $(".lec2-inputs").show();
+        $("#lec2-comp-m").show();
+    });
+    $("#lec2-rpts-m").click(function(){
+    	$(this).hide();
+        $(".lec2-vers").show();
+        $(".lec2-vers-m").hide()
+    	$(".lec2-inputs").hide();
+        $(".lec2-rpts").show();
+    });
+    $("#lec2-comp-m").click(function(){
+    	$(this).hide();
+        $("#lec2-comp").show();
+    });
+});

@@ -47,4 +47,98 @@ $(document).ready(function(){
     	$(this).hide();
         $("#lec2-comp").show();
     });
+
+
+	$(".lec3-vers").hide();
+	$(".lec3-inputs").hide();
+	$(".lec3-rpts").hide();
+	$("#lec3-comp").hide();
+    $("#lec3-comp-m").hide();
+    $(".lec3-vers-m").click(function(){
+    	$(this).hide();
+        $(".lec3-vers").show();
+        $(".lec3-inputs").show();
+        $("#lec3-comp-m").show();
+    });
+    $("#lec3-rpts-m").click(function(){
+    	$(this).hide();
+        $(".lec3-vers").show();
+        $(".lec3-vers-m").hide()
+    	$(".lec3-inputs").hide();
+        $(".lec3-rpts").show();
+    });
+    $("#lec3-comp-m").click(function(){
+    	$(this).hide();
+        $("#lec3-comp").show();
+    });
+
+	$(".lec4-vers").hide();
+	$(".lec4-inputs").hide();
+	$(".lec4-rpts").hide();
+	$("#lec4-comp").hide();
+    $("#lec4-comp-m").hide();
+    $(".lec4-vers-m").click(function(){
+    	$(this).hide();
+        $(".lec4-vers").show();
+        $(".lec4-inputs").show();
+        $("#lec4-comp-m").show();
+    });
+    $("#lec4-rpts-m").click(function(){
+    	$(this).hide();
+        $(".lec4-vers").show();
+        $(".lec4-vers-m").hide()
+    	$(".lec4-inputs").hide();
+        $(".lec4-rpts").show();
+    });
+    $("#lec4-comp-m").click(function(){
+    	$(this).hide();
+        $("#lec4-comp").show();
+    });
+
+	$(".lec5-vers").hide();
+	$(".lec5-inputs").hide();
+	$(".lec5-rpts").hide();
+	$("#lec5-comp").hide();
+    $("#lec5-comp-m").hide();
+    $(".lec5-vers-m").click(function(){
+    	$(this).hide();
+        $(".lec5-vers").show();
+        $(".lec5-inputs").show();
+        $("#lec5-comp-m").show();
+    });
+    $("#lec5-rpts-m").click(function(){
+    	$(this).hide();
+        $(".lec5-vers").show();
+        $(".lec5-vers-m").hide()
+    	$(".lec5-inputs").hide();
+        $(".lec5-rpts").show();
+    });
+    $("#lec5-comp-m").click(function(){
+    	$(this).hide();
+        $("#lec5-comp").show();
+    });
+
+    $(".lec6-vers").hide();
+    $(".lec6-inputs").hide();
+    $(".lec6-rpts").hide();
+    $("#lec6-comp").hide();
+    $("#lec6-comp-m").hide();
+    $(".lec6-vers-m").click(function(){
+        $(this).hide();
+        $(".lec6-vers").show();
+        $(".lec6-inputs").show();
+        $("#lec6-comp-m").show();
+    });
+    $("#lec6-rpts-m").click(function(){
+        $(this).hide();
+        $(".lec6-vers").show();
+        $(".lec6-vers-m").hide()
+        $(".lec6-inputs").hide();
+        $(".lec6-rpts").show();
+    });
+    $("#lec6-comp-m").click(function(){
+        $(this).hide();
+        $("#lec6-comp").show();
+    });
+
 });

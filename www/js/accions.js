@@ -39,7 +39,11 @@ function listar(arg) {
     html += '<p>'+lecc.compromisos[i].content+'</p>';
     html += '</div>';
     html += '<label for="checkbox-'+i+'">'+lecc.compromisos[i].pregunta+'</label>';
-    html += '<input name="checkbox-'+i+'" id="checkbox-'+i+'" type="checkbox" value="'+lecc.compromisos[i].acepta+'">';
+    if (lecc.compromisos[i].acepta) {
+      html += '<input name="checkbox-'+i+'" id="checkbox-'+i+'" type="checkbox" value="'+lecc.compromisos[i].pregunta+'" checked>';
+    }else{
+      html += '<input name="checkbox-'+i+'" id="checkbox-'+i+'" type="checkbox" value="'+lecc.compromisos[i].pregunta+'">';
+    }
   }
   html += '<p align="center"><a class="ui-btn ui-corner-all ui-shadow ui-icon-eye ui-btn-icon-right ui-btn-icon-notext" onclick="mostrar_respuestas()"></a></p>';
   html += '</div>';
@@ -60,8 +64,12 @@ function mostrar_respuestas() {
 function guardar() {
   // console.log(lecc);
   for (var i = 0; i < lecc.preguntas.length; i++) {
-    console.log($("#textinput-"+i).val());
+    // console.log($("#textinput-"+i).val());
     lecc.preguntas[i].rpta = $("#textinput-"+i).val();
+  }
+  for (var i = 0; i < lecc.compromisos.length; i++) {
+    // if ($('#checkbox-'+i+'').is(':checked')) {};
+    lecc.compromisos[i].acepta = $('#checkbox-'+i).is(':checked');
   }
   var lafe = JSON.parse(localStorage.getItem("lafe"));
   for (var i = 0; i < lafe.length; i++) {

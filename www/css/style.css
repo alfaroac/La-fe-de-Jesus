@@ -46,7 +46,7 @@
   background-size: cover;
   margin: 0 auto 1em;
   max-height: 900px;
-  max-width: 600px;
+  max-width: 1100px;
 }
 
 .success{
@@ -78,4 +78,8 @@ a{
 }
 .btny:hover{
     background-color: #d9edf7;
+}
+
+.center{
+  text-align: center;
 }

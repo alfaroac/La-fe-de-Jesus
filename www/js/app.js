@@ -141,4 +141,11 @@ $(document).ready(function(){
         $("#lec6-comp").show();
     });
 
+    $("#leccion1-title").text(lafe[0].leccion);
+
+
+    function save(){
+        alert("Desea guardar");
+    }
+
 });

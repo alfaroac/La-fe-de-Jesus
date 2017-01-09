@@ -5,10 +5,15 @@
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
-	<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css">
+	<!-- <link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css"> -->
   <link href="css/style.css" rel="stylesheet">
     <!-- <link href="css/index.css" rel="stylesheet"> -->
   <link href="spec/lib/jasmine-1.2.0/jasmine.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/themes/mytheme.min.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <!-- <link rel="stylesheet" href="spec/lib/jasmine-1.2.0/jasmine.css"> -->
+  <link rel="stylesheet" href="css/structure/jquery.mobile.structure.css" /> 
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.mobile-1.4.5.min.js"></script>
   <!-- <script src="js/index.js"></script> -->
@@ -81,10 +86,10 @@
         </ul>
       <div data-role="popup" id="popupMenu">
         <ul data-role="listview" data-inset="true" style="min-width:210px;">
-            <li><a href="#">a</a></li>
-            <li><a href="#">b</a></li>
-            <li><a href="#">c</a></li>
-            <li><a href="#">d</a></li>
+            <li><a href="#" onclick="cambiar_tema('a')">a</a></li>
+            <li><a href="#" onclick="cambiar_tema('b')">b</a></li>
+            <li><a href="#" onclick="cambiar_tema('c')">c</a></li>
+            <li><a href="#" onclick="cambiar_tema('d')">d</a></li>
         </ul>
       </div>
     </div><!-- /navbar -->

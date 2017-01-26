@@ -94,7 +94,7 @@ function limpiar() {
 
 function cargar_datos(){
   localStorage.setItem('lafe', JSON.stringify(lafe));
-  toast("Datos cargados con éxito!");  
+  toast("Información básica cargado con éxito!");  
 }
 
 function toast(message) {

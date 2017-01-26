@@ -192,7 +192,7 @@ var lafe = [
     ],
     compromisos:[
             {id:1,pregunta:'Consolarme en la esperanza de la resurrección.',acepta:false,versiculo:'1 Tes. 4:13-18',contenido:'13. Tampoco queremos, hermanos, que ignoréis acerca de los que duermen, para que no os entristezcáis como los otros que no tienen esperanza. 14. Si creemos que Jesús murió y resucitó, así también traerá Dios con Jesús a los que durmieron en él. 15. Por lo cual os decimos esto en palabra del Señor: que nosotros que vivimos, que habremos quedado hasta la venida del Señor, no precederemos a los que durmieron. 16. El Señor mismo, con voz de mando, con voz de arcángel y con trompeta de Dios, descenderá del cielo. Entonces, los muertos en Cristo resucitarán primero. 17. Luego nosotros, los que vivimos, los que hayamos quedado, seremos arrebatados juntamente con ellos en las nubes para recibir al Señor en el aire, y así estaremos siempre con el Señor. 18. Por tanto, alentaos los unos a los otros con estas palabras.'},
-            {id:2,pregunta:'Creer en Jesús',acepta:false,versiculo:'S. Juan 11:25',contenido:'Pero esto es para que se cumpla la palabra que está escrita en su Ley: “Sin causa me odian.”'},
+            {id:2,pregunta:'Creer en Jesús',acepta:false,versiculo:'S. Juan 11:25',contenido:'Le dijo Jesús: —Yo soy la resurrección y la vida; el que cree en mí, aunque esté muerto, vivirá. ”'},
             {id:3,pregunta:'Perseverar hasta lograr la inmortalidad que Dios nos dará.',acepta:false,versiculo:'Romanos 2:7',contenido:'vida eterna a los que, perseverando en hacer el bien, buscan gloria, honra e inmortalidad;'},
     ]},
     {id:15, titulo:'La Iglesia',preguntas:[
@@ -246,7 +246,7 @@ var lafe = [
     ],
     compromisos:[
             {id:1,pregunta:'Ser un fiel administrador de los bienes de Dios',acepta:false,versiculo:'S. Mateo 24:14; 28:19',contenido:'24:14. Y será predicado este evangelio del Reino en todo el mundo, para testimonio a todas las naciones, y entonces vendrá el fin. 28:19. Por tanto, id y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, del Hijo y del Espíritu Santo,'},
-            {id:2,pregunta:'Ser socio de Dios',acepta:false,versiculo:'Proverbios 11:24,25',contenido:'24. Hay quienes reparteny les es añadido más, y hay quienes retienen más de lo justoy acaban en la miseria. 25. El alma generosa será prosperada: el que sacie a otrosserá también saciado.'},
+            {id:2,pregunta:'Ser socio de Dios',acepta:false,versiculo:'Proverbios 11:24,25',contenido:'24. Hay quienes reparten y les es añadido más, y hay quienes retienen más de lo justo y acaban en la miseria. 25. El alma generosa será prosperada: el que sacie a otros será también saciado.'},
             {id:3,pregunta:'Dar con alegría',acepta:false,versiculo:'2 Corintios 9:6,7',contenido:'6. Pero esto digo: El que siembra escasamente, también segará escasamente; y el que siembra generosamente, generosamente también segará. 7. Cada uno dé como propuso en su corazón: no con tristeza ni por obligación, porque Dios ama al dador alegre.'},
     ]},
     {id:19, titulo:'La vida cristiana',preguntas:[

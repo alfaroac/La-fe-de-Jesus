@@ -30,8 +30,7 @@ function listar(arg) {
     html += '<div data-role="popup" id="versiculo-'+i+'" class="ui-content" style="max-width:280px">';
     html += '<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>';
     html += '<p>'+lecc.compromisos[i].contenido+'</p>';
-    html += '</div>';
-    html += '<textarea class="input-r" rows="3" style="display:none" id="textarea-c-'+i+'" placeholder="Ingrese versículo">'+lecc.compromisos[i].contenido+'</textarea>';
+    html += '</div>';   
     html += '<label for="checkbox-'+i+'">'+lecc.compromisos[i].pregunta+'</label>';
     if (lecc.compromisos[i].acepta) {
       html += '<input name="checkbox-'+i+'" id="checkbox-'+i+'" type="checkbox" checked>';
